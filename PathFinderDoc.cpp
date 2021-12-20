@@ -45,7 +45,7 @@ void display(int (*mapc)[n],int x,int y)
     usleep(1000000);
 }
 
-//Recerssive function to find the path using a simple rule to go in all direction until the exit is found
+//Recurssive function to find the path using a simple rule to go in all direction until the exit is found
 int route(int i,int j,int (*map)[n],int (*mapc)[n])
 {
     if(found)
